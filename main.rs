@@ -20,8 +20,8 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "agent.vip.pp.ua:80"),   // 哪吒v1填写形式：nezha.xxx.com:8008   // 哪吒v0填写形式：nezha.xxx.com
         ("NEZHA_PORT", ""),     // 哪吒v1请留空此变量，哪吒v0的agent端口
         ("NEZHA_KEY", "nxABw6y9GnVpW3o17Ws5jzWFhFk8M6EB"),      // 哪吒v1的NZ-CLIENT_SECRET或哪吒v0的agent密钥
-        ("ARGO_DOMAIN", "shuttle.556687.xyz"),    // argo固定隧道域名，留空将使用临时隧道
-        ("ARGO_AUTH", "eyJhIjoiODAxNmU2NTkyZGUzZmFlMjMyNTlmODU2NzM0ZjljNDYiLCJ0IjoiNzc5NDZhZWQtZmY1Ny00MDc5LTg0YmUtNDQ0NDYwZWExMmY1IiwicyI6Ik1EazBOemhrTXpndE1EaGlaUzAwWVdSbExUbGlNakl0WXpZMFpXRTVNVGxpWldGaSJ9"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
+        ("ARGO_DOMAIN", "shuttle.vip.pp.ua"),    // argo固定隧道域名，留空将使用临时隧道
+        ("ARGO_AUTH", "eyJhIjoiODAxNmU2NTkyZGUzZmFlMjMyNTlmODU2NzM0ZjljNDYiLCJ0IjoiNTU0OWIyYjQtODg1Ny00NmUzLWJmOTUtODY1ZDA2Y2Y4MDYyIiwicyI6Ik1HTTJNR1EwT1RNdE9ESmlZaTAwTkRoaUxUZzJOVFV0TmpCbFlXTXpPVEZqWkRZMCJ9"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
         ("ARGO_PORT", "8080"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
         ("CFIP", "icook.hk"),    // 优选域名或优选ip
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
